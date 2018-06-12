@@ -1,0 +1,154 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<title>無標題文件</title>
+<link rel="stylesheet" type="text/css" href="../CSS/reset.css"/>
+<link rel="stylesheet" type="text/css" href="../CSS/style.css"/>
+</head>
+
+<body>
+
+<h4 class="title">※填寫註冊表單</h4>
+<hr />
+<table class="tableOne">
+	<tr>
+		<th class="oddTh">
+            <label >
+            會員帳號(您的常用信箱):
+            </label>
+        </th>
+        <td class="oddTd">
+        	<input type="text" name="account" />
+            登入中華電信將使用此帳號登入。
+             <a href="#">如果您沒有email</a>
+        </td>       
+    </tr>
+    <tr>
+		<th class="doubleTh">
+        	<label for="password">
+            會員密碼:
+            </label>
+        </th>
+        <td class="doubleTd">
+        	<input type="text" name="password" />
+            密碼須為長度8至20的英數字組合。
+        </td>      
+    </tr>
+    <tr>
+		<th class="oddTh">
+        	<label for="checkPassword">
+            再次輸入密碼:
+            </label>
+        </th>
+        <td  class="oddTd">
+        	<input type="text" name="checkPassword" />
+        </td>       
+    </tr>    
+</table>
+<h4 class="title">※請確實填寫您的真實資料</h4>
+<hr />
+<table class="tableOne">
+	<tr>
+    	<th class="oddTh">
+        	<label>
+           <sup>*</sup>真實姓名
+            </label>
+        </th>
+        <td  class="oddTd">
+        <input type="text" name="name" />
+        </td>
+    </tr>
+    <tr>
+    	<th class="doubleTh">
+            <label>
+            <sup>*</sup>暱　　稱：
+            </label>
+        </th>
+        <td class="doubleTd">
+        <input type="text" name="nickName" />
+        </td>
+    </tr>
+    <tr>
+    	<th class="oddTh">
+        <label>
+        	<sup>*</sup>性　　別：
+        </label>
+        </th>
+        <td class="oddTd">
+        <input type="radio" name="male" />男
+        <input type="radio" name="female" />女        
+        </td>
+    </tr>
+    <tr>
+    	<th class="doubleTh">
+        <label>
+        	<sup>*</sup>生　　日：
+        </label>
+        </th>
+        <td class="doubleTd">
+        	西元<input type="text" name="year" size="8"/>年
+            <select name="month">            
+            <option>1</option>
+            <option>2</option>
+            <option>3</option>
+            <option>4</option>
+            <option>5</option>
+            <option>6</option>
+            <option>7</option>
+            <option>8</option>
+            <option>9</option>
+            <option>10</option>
+            <option>11</option>
+            <option>12</option>
+            </select>月
+            <input type="text" name="date" size="2"/>日
+        </td>
+    </tr>
+    <tr>
+    	<th class="oddTh">
+        <label>
+        	<sup>*</sup>行動電話/聯絡電話﹕
+        </label>
+        </th>
+        <td class="oddTd">
+        	<input type="text" name="tel" />
+        </td>
+    </tr>
+    <tr>
+    	<th class="oddTh">
+        <label>
+        	<sup>*</sup>從哪裡得知公司相關資訊
+        </label>
+        </th>
+        <td class="oddTd">
+        	<table>
+                <tr>
+					<td>
+                    <input type="checkbox" value="" />雜誌
+                    </td>
+                    <td>
+                    <input type="checkbox" value="" />廣告
+                    </td>
+                    <td>
+                    <input type="checkbox" value="" />社群媒體
+                    </td>
+                    <td>
+                    <input type="checkbox" value="" />親朋好友
+                    </td>
+                    <td>
+                    <input type="checkbox" value="" />其他
+                    </td>                
+                </tr>
+            </table>
+        </td>
+    </tr>
+</table>
+<div id="submitBT">
+<input type="image" name="submit"  src="../images/button.gif" width="75" height="28"/>
+</div>
+<br />
+<a href="../index.html">回首頁</a>
+</body>
+</html>

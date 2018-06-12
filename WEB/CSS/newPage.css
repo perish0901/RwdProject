@@ -1,0 +1,345 @@
+/* 最外框 */
+
+#page {
+  width: 1000px;
+  margin: 0px auto;
+}
+
+p {
+  font-size: 14px;
+  color: gray;
+  display: block;
+}
+
+/* header外框 */
+
+header {
+  margin-top: 30px;
+}
+
+/* logo */
+
+.logoTitle {
+  float: left;
+}
+
+/* header右邊 */
+
+#rightMenu>div {
+  float: right;
+}
+
+.menuTitle {
+  margin-top: 20px;
+  font-size: 12px;
+  /* float: right; */
+}
+
+/* 中英 icon */
+
+#iconList {
+  margin-right: 30px;
+  padding-top: 11px;
+}
+
+.iconTwn {
+  margin-left: 15px;
+}
+
+img.iconTwn, img.iconEn {
+  padding-right: 5px;
+  vertical-align: middle;
+}
+
+.clear {
+  clear: both;
+}
+
+/* search */
+
+input[type="image"] {
+  padding: 0px;
+  position: relative;
+  top: 5px;
+  z-index: 1;
+  height: 22px;
+}
+
+input[type="text"] {
+  border: 1px solid gray;
+  width: 100px;
+  height: 19.5px;
+  border-radius: 40px;
+  position: relative;
+  left: 13px;
+  top: -2px;
+  z-index: 2;
+  margin-left: 0px;
+}
+
+/* 導覽列 */
+
+nav {
+  margin-top: 20px;
+  background-color: rgb(28, 140, 182);
+  font-size: 0px;
+}
+
+nav ul li {
+  display: inline-block;
+  border-right: solid;
+  border-right-width: 1px;
+  border-right-color: white;
+  text-align: center;
+  padding: 10px 20px;
+  box-shadow: inset -1px 0px 0px #545353;
+}
+
+nav ul li:hover{
+  background-color: rgb(97, 189, 223);
+}
+
+nav ul li:last-child {
+  border: none;
+  box-shadow: inset 0px 0px 0px;
+}
+
+a {
+  /* background-color: rgb(28,140,182);
+    text-align: center;       
+    text-decoration-line: none; */
+  color: white;
+  /* padding: 8px 25px; */
+  font-size: 14px;
+  /* border-right-style: solid;
+  border-right-width: 1px;
+  border-right-color: white; */
+  /* box-shadow: 0px 1px 0px 0px; */
+}
+
+a:last-child {
+  border: none;
+}
+
+/* 導覽列內的項目列表 */
+
+nav {
+  position: relative;
+}
+
+ul.dropdown {
+  /* position: absolute;
+  top: 35px;
+  left: 0; */
+  z-index: 2;
+  background-color: rgb(141, 135, 135);
+  opacity: 0.9;
+  /* display: none; */
+}
+
+ul.product {
+  position: absolute;
+  top: 35px;
+  left: 69px;
+}
+
+ul.news {
+  position: absolute;
+  top: 35px;
+  left: 166px;
+}
+
+ul.dropdown>li {
+  border: none;
+  display: none;
+  box-shadow: inset 0px 0px 0px;
+  text-align: left; 
+}
+
+nav li:hover .dropdown>li {
+  display: block;
+}
+
+ul.dropdown>li:hover{
+  background-color: rgb(172, 160, 160);
+}
+
+/* office 圖片定位 */
+
+#bannerParent {
+  /* overflow: hidden; */
+  height: 500px;
+}
+
+#office {
+  position: relative;
+  top: -390px;
+  left: 30px;
+  width: 330px;
+}
+
+hr {
+  margin: 3px 0px;
+}
+
+.officeList {
+  margin-top: 15px;
+}
+
+.officeList img {
+  float: left;
+}
+
+/* article */
+
+article {
+  width: 960px;
+  margin: 0px auto;
+  /* font-size: 0px; */
+}
+
+section {
+  height: 230px;
+  float: left;
+  width: 319px;
+  border-right-style: solid;
+  border-right-color: white;
+  border-right-width: 1px;
+  background-color: #eeeeee;
+}
+
+.title {
+  margin-bottom: 10px;
+}
+
+.title div:first-child {
+  color: rgb(12, 135, 192);
+  font-size: 12px;
+  display: inline-block;
+}
+
+.title div:last-child {
+  color: rgb(12, 135, 192);
+  font-size: 12px;
+  float: right;
+}
+
+.articleTitle {
+  background-color: rgb(12, 135, 192);
+  color: white;
+  padding: 10px 10px;
+}
+
+#map {
+  width: 280px;
+  margin: 0px auto;
+  margin-bottom: 10px;
+}
+
+.articleContent {
+  margin: 15px 10px;
+}
+
+p {
+  line-height: 1.3em;
+  font-size: 12px;
+}
+
+.articleContent p.title {
+  color: dodgerblue !important;
+}
+
+.contentHr {
+  height: 1px;
+  border: none;
+  border-top: 1px dashed;
+  margin: 18px 0px;
+}
+
+/* map name */
+
+#mapPosition {
+  position: relative;
+}
+
+#mapName {
+  font-size: 12px;
+  width: 80px;
+  background-color: white;
+  opacity: 0.6;
+  text-align: center;
+  color: rgb(12, 135, 192);
+  position: absolute;
+  z-index: 1;
+  bottom: 18px;
+  padding: 3px 3px;
+}
+
+/* 移動整個Content 覆蓋banner */
+
+#contentParent {
+  position: relative;
+}
+
+article {
+  position: absolute;
+  bottom: -175px;
+  left: 20px;
+  /* clear: both; */
+}
+
+/* line bar */
+
+h5 {
+  color: grey;
+  display: block;
+  padding: 10px 0px;
+}
+
+#lineBar {
+  overflow: auto;
+  margin-bottom: 5px;
+}
+
+#lineBar>div {
+  width: 135px;
+  height: 2px;
+  padding: 2px;
+  float: left;
+}
+
+#lineBar div:first-child {
+  background-color: rgb(12, 135, 192);
+}
+
+#lineBar div:last-child {
+  background-color: rgb(206, 206, 206);
+}
+
+/* office 圖文並列 */
+
+#caseContent {
+  overflow: auto;
+}
+
+#caseContent>div {
+  width: 140px;
+  float: left;
+}
+
+#caseContent img {
+  width: 140px;
+}
+
+#caseContent div:last-child {
+  float: right;
+}
+
+/* footer */
+
+footer {
+  position: relative;
+  bottom: -160px;
+  margin-top: 40px;
+  font-size: 12px;
+}

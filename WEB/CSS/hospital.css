@@ -1,0 +1,660 @@
+a {
+  text-decoration: none;
+  color: black;
+}
+header {
+  width: 1920px;
+  overflow: hidden;
+}
+header ul {
+  width: 1160px;
+  float: right;
+  margin: 0 auto;
+}
+header ul li {
+  display: inline-block;
+  height: 90px;
+  width: 90px;
+  text-align: center;
+}
+
+header li a {
+  /* background-color: rgb(0,143,212); */
+  color: black;
+}
+
+header ul li a:hover {
+  background-color: rgb(0, 143, 212);
+  /* height: 90px; */
+  /* width: 90px; */
+  display: block;
+  /* color: white; */
+  padding: 3px 0px 19px 0px;
+}
+header a:hover {
+  color: white;
+}
+header ul li:last-child {
+  background-color: rgb(77, 177, 225);
+}
+header li img {
+  display: block;
+  margin: 0px auto;
+  margin-top: 25px;
+  margin-bottom: 15px;
+}
+
+/* banner */
+#banner {
+  position: relative;
+  top: 0px;
+  left: 0px;
+  /* margin-top: 20px;   */
+}
+#slogan {
+  position: absolute;
+  top: 175px;
+  right: 400px;
+  background-repeat: no-repeat;
+  width: 400px;
+  height: 170px;
+  text-align: center;
+  color: rgb(0, 143, 212);
+  padding-top: 30px;
+  background-color: rgba(204, 204, 204, 0.63);
+  border: 1px solid #ccc;
+}
+#slogan img {
+  position: absolute;
+  top: -35px;
+  left: 43%;
+}
+#slogan h2 {
+  margin-bottom: 20px;
+}
+#readMore {
+  background-color: rgb(0, 143, 212);
+  color: white;
+  display: block;
+  width: 160px;
+  padding: 15px 0px;
+  margin: 32px auto 0 auto;
+}
+
+/* Theme Colors Section */
+#theme {
+  background-color: rgb(22, 47, 59);
+  width: 180px;
+  color: white;
+  position: fixed;
+  top: 95px;
+  left: 0px;
+  padding: 10px 0px 20px 0px;
+}
+
+.color {
+  width: 40px;
+  height: 40px;
+  display: inline-block;
+  margin-right: 8px;
+  margin-bottom: 10px;
+  position: relative;
+  border: 1px solid rgba(255, 255, 255, 0);
+}
+
+.color:hover {
+  border: 1px solid #fff;
+}
+
+.color:hover > .icon {
+  opacity: 1;
+}
+
+.icon {
+  background: url(../images/hospital/icons/Fork.png) no-repeat center;
+  width: 25px;
+  height: 25px;
+  display: block;
+  position: absolute;
+  margin-left: -12.5px;
+  left: 50%;
+  top: 6px;
+  opacity: 0;
+
+}
+
+
+
+
+.color:hover::before{
+  /* display: block; */
+  /* content: '\f067';
+  font-family: "Font Awesome 5 Free";
+  font-weight: 900;
+  margin-left: 12px;
+  line-height: 2.6em; */
+
+}
+
+/* .color::after{
+  content: '\f067';
+  font-family: "Font Awesome 5 Free";
+  font-weight: 900;
+  margin-left: 12px;
+  line-height: 2.6em;
+  display: none;
+}  */
+
+#theme-color-section {
+   width: 160px;
+  margin: auto;
+}
+
+#theme-color-section h5{
+  margin: 10px 0px;
+}
+
+.fa-plus {
+  /* line-height: 2.3em;    */
+  background-color: aqua;
+   padding: 8px 8px;
+    /* margin-left: 3px; */
+    /* margin-top: 4px;  */
+}
+.color-1 {
+  background-color: rgb(54, 61, 161);
+} 
+/* .color-1::after{
+  content: '\f067';
+  font-family: "Font Awesome 5 Free";
+  font-weight: 900;
+
+} */
+.color-2 {
+  background-color: greenyellow;
+}
+.color-3 {
+  background-color: palevioletred;
+}
+.color-4 {
+  background-color: green;
+}
+.color-5 {
+  background-color: orange;
+}
+.color-6 {
+  background-color: purple;
+}
+
+.fix-button{
+  width: 160px;
+  height: 30px;
+  text-align: center;
+  margin: auto;  
+  line-height: 1.8em;
+}
+#boxedButton{
+  background-color: black;
+
+}
+#widescreenButton{
+  background-color: white;
+  color: black;
+}
+
+#crossIcon{
+  background-image: url("/images/hospital/icons/Fork.png");
+  background-repeat: no-repeat;
+  background-color: rgb(22, 47, 59);
+  background-position: 6px;
+  width: 40px;
+  height: 40px;
+  position: absolute;
+  top: 0px;
+  right: -40px;
+}
+
+/* title */
+#title {
+  width: 1160px;
+  margin: auto;
+  position: relative;
+  /* top: -150px; */
+  overflow: hidden;
+  margin: -100px auto 0 auto;
+  z-index: 10;
+}
+.titleBox {
+  float: left;
+  width: 290px;
+}
+.titleBox:nth-child(even) {
+  background-color: rgb(77, 177, 226, 0.9);
+}
+.titleBox:nth-child(odd) {
+  background-color: rgba(0, 130, 193, 0.9);
+}
+.titleImg {
+  text-align: center;
+  height: 145px;
+}
+
+.titleImg img {
+  padding: 25px 0px;
+}
+.titleContent {
+  text-align: center;
+  color: white;
+  /* height: 145px; */
+  padding-top: 20px;
+}
+
+.titleContent p {
+  height: 32px;
+  padding: 10px 20px;
+  overflow: hidden;
+  line-height: 1.2em;
+  text-align: center;
+}
+
+.titleContent img {
+  position: relative;
+  top: 3px;
+}
+
+/* articleLeft */
+#content {
+  width: 1160px;
+  margin: auto;
+  overflow: hidden;
+}
+#articleLeft {
+  width: 870px;
+  float: left;
+  text-align: left;
+}
+#articleLeft section {
+  float: left;
+  width: 290px;
+}
+#articleLeft h3 {
+  padding: 30px 0px;
+}
+#articleLeft section p {
+  height: 245px;
+  overflow: hidden;
+  line-height: 1.4em;
+  margin-top: 10px;
+}
+.article-title {
+  float: left;
+  width: 212px;
+  background-color: rgb(0, 143, 212);
+  padding: 15px 0px 15px 10px;
+  color: white;
+}
+.article-number {
+  position: relative;
+  float: left;
+  width: 48px;
+  background-color: #4db1e2;
+}
+.article-number img {
+  padding: 12px 10px;
+}
+.article-number span {
+  position: absolute;
+  top: 10px;
+  left: 18px;
+}
+.article-bottom {
+  padding: 20px 0px;
+  border-top-style: solid;
+  border-top-width: 1px;
+  border-bottom-style: solid;
+  border-bottom-width: 1px;
+  margin-top: 20px;
+  width: 270px;
+}
+#loadMore {
+  width: 1160px;
+  margin: 30px auto;
+}
+#loadMoreItem {
+  background-color: rgb(0, 143, 212);
+  height: 50px;
+  width: 180px;
+  line-height: 3.3em;
+  text-align: center;
+  color: white;
+}
+#loadMoreItem img {
+  margin-top: 10px;
+  margin-right: 3px;
+}
+/* articleRight firstList */
+
+#articleRight {
+  width: 290px;
+  float: right;
+}
+#articleRight section {
+  margin-top: 30px;
+}
+#articleRight h1 {
+  margin-bottom: 30px;
+  font-size: 32px;
+  border-left-style: solid;
+  border-left-width: 5px;
+  padding-left: 10px;
+  border-left-color: rgb(0, 143, 212);
+}
+.departmentText:last-child {
+  border-left-style: solid;
+  /* border-bottom-style: solid; */
+  border-right-style: solid;
+}
+.departmentList {
+  height: 50px;
+}
+#departmentListButtom {
+  border-left-style: solid;
+  border-bottom-style: solid;
+  border-right-style: solid;
+  border-width: 1px;
+  padding-bottom: 20px;
+  display: none;
+}
+.department-group:hover #departmentListButtom{
+  display: block;
+}
+.department-group:hover .department-cross-2{
+  display: block;
+}
+.department-group:hover .department-cross-1{
+  display: none;
+}
+
+#departmentListButtom p {
+  margin-left: 60px;
+  height: 60px;
+  width: 200px;
+  line-height: 1.4em;
+  padding: 10px 0px;
+  overflow: hidden;
+}
+
+.department-cross-1{
+  background-image: url("/images/hospital/icons/cross_2.png");
+  float: right;
+  width: 20px;
+  height: 50px;
+  background-repeat: no-repeat; 
+  background-position-y: 18px;
+}
+.department-cross-2{
+  background-image: url("/images/hospital/icons/cross_3.png");
+  float: right;
+  width: 20px;
+  height: 50px;
+  background-repeat: no-repeat; 
+  background-position-y: 18px;
+  display: none;
+}
+.triangle{
+  width: 0;
+  height: 0;
+  border-style: solid;
+  border-width: 7px 0 7px 7px; 
+  border-color: transparent transparent transparent #008fd4;
+  position: absolute;
+  top: 16px;
+  left: 52px;
+  
+}
+#timeTable {
+  margin-left: 55px;
+  height: 30px;
+  margin-top: 10px;
+}
+#timeTable img {
+  height: 30px;
+}
+#timeTable div {
+  line-height: 30px;
+  margin-right: 109px;
+  float: right;
+}
+.departmentIcon {
+  float: left;
+  background-color: rgb(0, 143, 212);
+  position: relative;
+}
+.departmentIcon img {
+  height: 15px;
+  width: 20px;
+  padding: 16px;
+}
+.departmentText {
+  line-height: 50px;
+  height: 49px;
+  border-style: solid;
+  border-width: 1px;
+  padding-left: 60px;
+}
+
+
+
+/* articleRight secondList */
+#serviceList {
+  width: 290px;
+}
+#serviceTitle {
+  margin-top: 55px;
+  overflow: hidden;
+}
+#serviceTitle h3 {
+  font-size: 28px;
+  float: left;
+  margin-right: 70px;
+  margin-bottom: 30px;
+  border-left-style: solid;
+  border-left-width: 5px;
+  padding-left: 10px;
+  border-left-color: rgb(0, 143, 212);
+}
+#serviceTitle > div {
+  float: left;
+}
+.fa-plus-square {
+  background-color: rgb(0, 143, 212);
+  color: white;
+  padding: 5px 5px;
+}
+.serviceItem {
+  padding: 10px 0px;
+  overflow: hidden;
+  border-top-style: solid;
+  border-width: 1px;
+}
+.serviceItem img {
+  float: left;
+  margin-right: 10px;
+}
+.serviceIcons{
+  color: rgb(0, 143, 212);
+}
+.serviceItem-text {
+  float: left;
+  padding-top: 3px;
+  margin-right: 20px;
+}
+
+/* articleRight three */
+#appointment h3 {
+  margin-bottom: 30px;
+  font-size: 28px;
+  border-left-style: solid;
+  border-left-width: 5px;
+  padding-left: 10px;
+  border-left-color: rgb(0, 143, 212);
+}
+.appointmentItem {
+  overflow: hidden;
+}
+.appointmentItem img {
+  background-color: rgb(0, 143, 212);
+  float: left;
+  height: 15px;
+  width: 20px;
+  padding: 16px;
+  border-style: solid;
+}
+.inputText {
+  float: left;
+  line-height: 1.6em;
+}
+input[type="text"] {
+  height: 43px;
+  width: 230px;
+}
+
+.appointmentButton {
+  background-color: rgb(0, 143, 212);
+  width: 180px;
+  color: white;
+  padding: 20px 0px 20px 20px;
+}
+.appointmentIcon {
+  margin-left: 20px;
+}
+
+/* footer */
+footer {
+  background-color: #213540;
+  overflow: hidden;
+  padding-bottom: 50px;
+}
+#footerItem {
+  width: 1160px;
+  margin: auto;
+}
+#footerItem > section {
+  width: 290px;
+  float: left;
+  text-align: center;
+}
+#footerItem section {
+  margin-top: 40px;
+}
+/* footer first section */
+#clinico h3 {
+  margin: 20px 0px;
+  color: white;
+  font-style: 28px;
+}
+#clinico p {
+  height: 100px;
+  width: 270px;
+  line-height: 1.3em;
+  margin: 15px 0px;
+  overflow: hidden;
+  color: #1b6992;
+}
+#clinico hr {
+  width: 150px;
+}
+
+/* footer second section */
+.earthTitle {
+  margin-bottom: 100px;
+}
+.earthItem {
+  margin: 40px 0px;
+}
+
+/* footer three section */
+#photo h3 {
+  margin: 20px 0px;
+  color: white;
+  font-style: 28px;
+}
+.photoItem {
+  width: 270px;
+  padding: 20px 0px;
+  overflow: hidden;
+  border-bottom-style: solid;
+  border-bottom-width: 1px;
+  border-bottom-color: gray;
+}
+.photoItem-img {
+  float: left;
+  clear: both;
+}
+.photoItem-text {
+  width: 170px;
+  float: right;
+  padding: 0px 10px;
+  color: #1b6992;
+  text-align: left;
+  line-height: 1.6em;
+}
+.photoItem-text p:nth-child(2) {
+  color: white;
+}
+
+/* footer four section */
+#datetime {
+  width: 290px;
+}
+#datetime #datetime-img {
+  position: relative;
+  z-index: 10;
+}
+#datetime #datetime-item-list {
+  position: relative;
+  top: -40px;
+  z-index: 0;
+}
+.datetimeItem {
+  width: 270px;
+  background-color: #3dade9;
+  /* margin: auto; */
+  padding: 15px 10px;
+  margin: 0px 10px;
+  border-bottom-style: solid;
+  border-bottom-width: 1px;
+  border-bottom-color: rgb(144, 201, 248);
+}
+.datetimeItem .line {
+  display: inline-block;
+  width: 30px;
+  border-style: solid;
+  border-width: 1px;
+  margin: 0px 10px;
+}
+.datetimeItem div {
+  color: white;
+  font-size: 1em;
+  display: inline-block;
+}
+.datetimeItem .date {
+  width: 30px;
+}
+.first-item {
+  padding-top: 80px;
+}
+.last-item .date {
+  margin-left: -74px;
+}
+.last-item {
+  padding-bottom: 30px;
+}
+#mentButton {
+  background-color: #1a6c99;
+  color: white;
+  width: 240px;
+  height: 50px;
+  line-height: 3.2em;
+  margin: 50px auto 0px auto;
+}
